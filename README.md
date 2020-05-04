@@ -2,7 +2,10 @@
 Containirize dotnet core web Api using Docker, push to Azure Container Registry and deploy to Kubernetes cluster in AKS
 
 ## Docker - Containerize dotnet core Web Api
-Add steps here
+
+1. docker images
+
+2. 
 
 ## Service Principal
 
