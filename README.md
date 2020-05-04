@@ -28,7 +28,7 @@ Containirize dotnet core web Api using Docker, push to Azure Container Registry 
 
 5. docker push retailcontainerregistry.azurecr.io/orderservice:v2
 
-## Azure Kubernetes Service - Run containers in AKS
+## Azure Kubernetes Service - Orchestrate & run containers
 
 1. az aks get-credentials --resource-group rg-cosmos --name retailkubernetescluster
 
