@@ -4,8 +4,27 @@ Containirize dotnet core web Api using Docker, push to Azure Container Registry 
 ## Docker - Containerize dotnet core Web Api
 Add steps here
 
-## Azure Container Registry - 
-Add steps here
+## Service Principal
 
-## Azure Kubernetes Service
-Add steps here
+1. az login
+
+2. az account show
+
+3. az ad sp create-for-rbac --skip-assignment
+
+
+## Azure Container Registry - Push Docker images
+
+1. az acr login --name retailcontainerregistry
+
+2. docker images
+
+3. docker tag orderservice:v2 retailcontainerregistry.azurecr.io/orderservice:v2
+
+4. docker images
+
+5. docker push retailcontainerregistry.azurecr.io/orderservice:v2
+
+## Azure Kubernetes Service - Run containers in AKS
+
+1. 
