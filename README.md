@@ -27,4 +27,17 @@ Add steps here
 
 ## Azure Kubernetes Service - Run containers in AKS
 
-1. 
+1. az aks get-credentials --resource-group rg-cosmos --name retailkubernetescluster
+
+2. kubectl get nodes
+
+3. kubectl apply -f .\Deployment.yml
+
+4. kubectl get deployment
+
+5. kubectl get pods
+
+6. kubectl apply -f .\Service.yml
+
+7. kubectl get services
+
