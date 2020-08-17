@@ -18,5 +18,7 @@ docker --version
 ### Docker build
 docker build -t weatherapi:v1 .
 
+*NOTE: . denotes the current directory*
+
 ### Retag docker image to ACR (Azure Container Registry)
 docker tag weatherapi:v1 acrweather.azurecr.io/weatherapi:v1
