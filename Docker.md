@@ -9,19 +9,19 @@
 
 ## Docker Commands
 
-### Docker version
+### Get docker version details
 docker version
 
-### Docker version (only the version number)
+### Get docker version number
 docker --version
 
-### Docker Images
+### Get list of docker images
 docker images
 
-### Docker Remove an Image
-docker rmi -f <imageid>
+### Remove a docker image
+docker rmi -f 46e18b10d5fe
 
-### Docker build
+### Build docker image
 docker build -t weatherapi:v1 .
 
 *NOTE: . denotes the current directory*
