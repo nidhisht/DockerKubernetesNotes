@@ -29,3 +29,17 @@ docker build -t weatherapi:v1 .
 ### Retag docker image to ACR (Azure Container Registry)
 docker tag weatherapi:v1 acrweather.azurecr.io/weatherapi:v1
 
+### Login to Azure Portal
+az login
+
+*NOTE: This opens up the Azure AD login page, enter the credential & login should happen*
+
+### Login to Azure Container Registry
+az acr login --name acrweather
+
+*NOTE: Login to the Azure Container Registry. This step is important, else you will get unauthorized error while pushing images to ACR*
+
+### Push docker images to ACR
+docker push acrweather.azurecr.io/weatherapi:v1
+
+
