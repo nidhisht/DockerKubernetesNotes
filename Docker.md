@@ -15,6 +15,12 @@ docker version
 ### Docker version (only the version number)
 docker --version
 
+### Docker Images
+docker images
+
+### Docker Remove an Image
+docker rmi -f <imageid>
+
 ### Docker build
 docker build -t weatherapi:v1 .
 
@@ -22,3 +28,4 @@ docker build -t weatherapi:v1 .
 
 ### Retag docker image to ACR (Azure Container Registry)
 docker tag weatherapi:v1 acrweather.azurecr.io/weatherapi:v1
+
