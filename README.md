@@ -1,11 +1,9 @@
 # Docker & Kubernetes Notes
 Containirize dotnet core web Api using Docker, push to Azure Container Registry and deploy to Kubernetes cluster in AKS
 
-## Docker - Containerize dotnet core Web Api
+## [Docker - Containerize dotnet core Web Api](https://github.com/nidhisht/DockerKubernetesNotes/blob/master/README-Docker.md)
 
-1. docker images
 
-2. 
 
 ## Service Principal
 
