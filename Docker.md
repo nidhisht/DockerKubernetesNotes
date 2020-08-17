@@ -6,6 +6,11 @@
 
 2. Install Azure CLI on windows machine
 
+3. Create Service Principal in Azure AD
+
+4. Create Azure Container Registry
+
+5. Configure RBAC in Azure Container Registry (Acrpull) for the Service Principal
 
 ## Docker Commands
 
